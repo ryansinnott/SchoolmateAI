@@ -2,41 +2,66 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
+/* School AI Tutoring System Design System
+   Professional, clean, educational-focused design
+   All colors MUST be HSL.
 */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Base colors - Clean professional whites and grays */
+    --background: 0 0% 98%;
+    --foreground: 215 20% 15%;
 
+    /* Card and surface colors */
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 215 20% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 215 20% 15%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary - Professional education blue */
+    --primary: 214 85% 45%;
+    --primary-foreground: 0 0% 100%;
+    --primary-hover: 214 85% 40%;
+    --primary-subtle: 214 85% 95%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary - Clean gray for secondary actions */
+    --secondary: 215 15% 92%;
+    --secondary-foreground: 215 20% 25%;
+    --secondary-hover: 215 15% 88%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Success/Learning green accent */
+    --success: 145 70% 45%;
+    --success-foreground: 0 0% 100%;
+    --success-subtle: 145 70% 95%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Muted colors for subtle elements */
+    --muted: 215 15% 95%;
+    --muted-foreground: 215 15% 45%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Accent colors */
+    --accent: 215 15% 92%;
+    --accent-foreground: 215 20% 25%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Chat colors */
+    --chat-user: 214 85% 96%;
+    --chat-ai: 0 0% 100%;
+    --chat-border: 215 15% 90%;
 
-    --radius: 0.5rem;
+    /* Status colors */
+    --destructive: 0 75% 55%;
+    --destructive-foreground: 0 0% 100%;
+    --warning: 35 85% 55%;
+    --warning-foreground: 0 0% 100%;
+
+    /* Border and input */
+    --border: 215 15% 88%;
+    --input: 215 15% 88%;
+    --ring: 214 85% 45%;
+
+    /* Border radius and spacing */
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
