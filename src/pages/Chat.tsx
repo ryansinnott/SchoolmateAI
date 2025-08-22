@@ -105,7 +105,7 @@ const Chat = () => {
   };
 
   const handleBackToDashboard = () => {
-    navigate('/dashboard');
+    navigate('/');
   };
 
   const formatTime = (date: Date) => {

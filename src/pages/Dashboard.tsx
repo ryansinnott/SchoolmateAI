@@ -81,7 +81,8 @@ const Dashboard = () => {
   };
 
   const handleLogout = () => {
-    navigate('/');
+    // Since there's no login page, just refresh the dashboard
+    window.location.reload();
   };
 
   return (
