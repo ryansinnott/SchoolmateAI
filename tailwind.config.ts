@@ -40,6 +40,14 @@ export default {
 					foreground: 'hsl(var(--success-foreground))',
 					subtle: 'hsl(var(--success-subtle))'
 				},
+				'accent-gold': {
+					DEFAULT: 'hsl(var(--accent-gold))',
+					foreground: 'hsl(var(--accent-gold-foreground))',
+					subtle: 'hsl(var(--accent-gold-subtle))'
+				},
+				'robot-body': 'hsl(var(--robot-body))',
+				'robot-shadow': 'hsl(var(--robot-shadow))',
+				'robot-glow': 'hsl(var(--robot-glow))',
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
 					foreground: 'hsl(var(--destructive-foreground))'

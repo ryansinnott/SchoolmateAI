@@ -2,8 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-/* School AI Tutoring System Design System
-   Professional, clean, educational-focused design
+/* Schoolmate AI Design System
+   Friendly, approachable, robot-companion inspired design
+   Based on the minimalist robot character with warm golden accents
    All colors MUST be HSL.
 */
 
@@ -20,11 +21,11 @@
     --popover: 0 0% 100%;
     --popover-foreground: 215 20% 15%;
 
-    /* Primary - Professional education blue */
-    --primary: 214 85% 45%;
+    /* Primary - Friendly robot blue (matches robot's blue elements) */
+    --primary: 215 75% 50%;
     --primary-foreground: 0 0% 100%;
-    --primary-hover: 214 85% 40%;
-    --primary-subtle: 214 85% 95%;
+    --primary-hover: 215 75% 45%;
+    --primary-subtle: 215 75% 96%;
 
     /* Secondary - Clean gray for secondary actions */
     --secondary: 215 15% 92%;
@@ -35,6 +36,16 @@
     --success: 145 70% 45%;
     --success-foreground: 0 0% 100%;
     --success-subtle: 145 70% 95%;
+
+    /* Robot golden eyes accent - warm, friendly glow */
+    --accent-gold: 45 95% 60%;
+    --accent-gold-foreground: 45 30% 20%;
+    --accent-gold-subtle: 45 95% 95%;
+
+    /* Schoolmate robot character colors */
+    --robot-body: 210 10% 85%;
+    --robot-shadow: 210 15% 25%;
+    --robot-glow: 45 100% 70%;
 
     /* Muted colors for subtle elements */
     --muted: 215 15% 95%;

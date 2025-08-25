@@ -14,7 +14,7 @@ import {
   Globe, 
   Languages, 
   MonitorSpeaker, 
-  GraduationCap,
+  Heart,
   Bot,
   User
 } from 'lucide-react';
@@ -25,9 +25,9 @@ const subjects = {
   'science': { name: 'Science', icon: Microscope, color: 'text-purple-600' },
   'history': { name: 'History', icon: Clock, color: 'text-amber-600' },
   'geography': { name: 'Geography', icon: Globe, color: 'text-teal-600' },
-  'languages': { name: 'Languages', icon: Languages, color: 'text-rose-600' },
+  'holden-caulfield': { name: 'Holden Caulfield', icon: BookOpen, color: 'text-red-600' },
   'computer-science': { name: 'Computer Science', icon: MonitorSpeaker, color: 'text-indigo-600' },
-  'study-skills': { name: 'Study Skills', icon: GraduationCap, color: 'text-orange-600' }
+  'wellbeing': { name: 'Wellbeing Support', icon: Heart, color: 'text-purple-500' }
 };
 
 interface Message {

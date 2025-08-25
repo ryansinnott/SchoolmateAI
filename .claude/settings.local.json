@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install)",
+      "Bash(npm run dev:*)",
+      "Bash(pip install:*)",
+      "Bash(curl:*)",
+      "Bash(where python)",
+      "Bash(py:*)",
+      "Bash(npm run lint)",
+      "Read(/d:\\Downloads/**)",
+      "Read(/d:\\Downloads/**)",
+      "Bash(copy:*)"
+    ],
+    "deny": [],
+    "ask": [],
+    "additionalDirectories": [
+      "d:\\Downloads"
+    ]
+  }
+}
